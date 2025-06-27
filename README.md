@@ -3,9 +3,9 @@
 # ⏳🔊 It Looks Like Pendulum Music  
 ### Playground de Pêndulos Aninhados Musicais
 
-[![Live Demo](https://img.shields.io/badge/demo-click_here-brightgreen?style=for-the-badge&logo=github)](https://SEU_USUARIO.github.io/nested-pendulum-music-playground/)
-![p5.js](https://img.shields.io/badge/p5.js-%E2%9D%A4-red?style=for-the-badge)
-![Tone.js](https://img.shields.io/badge/Tone.js-%E2%99%AB-blueviolet?style=for-the-badge)
+[![Live Demo]([https://img.shields.io/badge/demo-click_here-brightgreen?style=for-the-badge&logo=github)](https://SEU_USUARIO.github.io/nested-pendulum-music-playground/](https://editor.p5js.org/ieysimurra/full/t3md26c1C))
+![p5.js]([https://img.shields.io/badge/p5.js-%E2%9D%A4-red?style=for-the-badge](https://editor.p5js.org/))
+![Tone.js]([https://img.shields.io/badge/Tone.js-%E2%99%AB-blueviolet?style=for-the-badge](https://tonejs.github.io/))
 
 </div>
 
