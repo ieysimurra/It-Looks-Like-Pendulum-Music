@@ -197,8 +197,8 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📞 Contato
 
-- **Email**: [seu-email@example.com](mailto:ieysimurra@gmail.com)
-- **GitHub**: [@seu-usuario](https://github.com/ieysimurra)
+- **Email**: [ieysimurra@gmail.co,](mailto:ieysimurra@gmail.com)
+- **GitHub**: [@ieysimurra](https://github.com/ieysimurra)
 - **Website**: [em construção](https://seu-site.com)
 
 ---
