@@ -197,8 +197,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Email**: [your-email@example.com](mailto:ieysimurra@gmail.com)
-- **GitHub**: [@your-username](https://github.com/ieysimurra)
+- **Email**: [ieysimurra@gmail.com](mailto:ieysimurra@gmail.com)
+- **GitHub**: [@ieysimurra](https://github.com/ieysimurra)
 - **Website**: [under_construction](https://your-website.com)
 
 ---
