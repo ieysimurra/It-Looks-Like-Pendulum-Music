@@ -203,4 +203,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**[⭐ If you liked the project, leave a star!](https://github.com/ieysimurra/It-Looks-Like-On-December/stargazers)**
+**[⭐ If you liked the project, leave a star!](https://github.com/ieysimurra/It-Looks-Like-Pendulum-Music/stargazers)**
