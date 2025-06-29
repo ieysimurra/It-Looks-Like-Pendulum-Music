@@ -14,12 +14,12 @@ Este projeto explora a intersecção entre movimento físico e criação musical
 
 ### ✨ Características Principais
 
-- **Simulação Física Realista**: Pêndulos duplos com comportamento caótico autêntico
+- **Simulação Física**: Pêndulos duplos com comportamento caótico autêntico
 - **Síntese Sonora Dinâmica**: Sons gerados em tempo real usando Tone.js
 - **Interface Intuitiva**: Controles deslizantes para ajuste fino de parâmetros
 - **Gravação Integrada**: Capture áudio e vídeo de suas criações
 - **Múltiplos Pêndulos**: Suporte para até 5 pêndulos simultâneos
-- **Visualização Rica**: Rastros coloridos e animações suaves
+- **Visualização**: Rastros coloridos e animações suaves
 - **Responsivo**: Adaptável a diferentes tamanhos de tela
 
 ## 🚀 Demonstração
@@ -72,8 +72,8 @@ Este projeto explora a intersecção entre movimento físico e criação musical
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/interactive-musical-pendulums.git
-cd interactive-musical-pendulums
+git clone https://github.com/ieysimurra/It-Looks-Like-Pendulum-Music.git
+cd it-Looks-Like-Pendulum-Music
 ```
 
 2. Abra `index.html` no navegador ou inicie um servidor local:
@@ -197,7 +197,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📞 Contato
 
-- **Email**: [ieysimurra@gmail.co,](mailto:ieysimurra@gmail.com)
+- **Email**: [ieysimurra@gmail.com](mailto:ieysimurra@gmail.com)
 - **GitHub**: [@ieysimurra](https://github.com/ieysimurra)
 - **Website**: [em construção](https://seu-site.com)
 
