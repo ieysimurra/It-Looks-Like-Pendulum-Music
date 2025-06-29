@@ -14,12 +14,12 @@ This project explores the intersection between physical movement and musical cre
 
 ### ✨ Key Features
 
-- **Realistic Physics Simulation**: Double pendulums with authentic chaotic behavior
+- **Physics Simulation**: Double pendulums with authentic chaotic behavior
 - **Dynamic Sound Synthesis**: Real-time generated sounds using Tone.js
 - **Intuitive Interface**: Slider controls for fine parameter adjustment
 - **Integrated Recording**: Capture audio and video of your creations
 - **Multiple Pendulums**: Support for up to 5 simultaneous pendulums
-- **Rich Visualization**: Colored trails and smooth animations
+- **Visualization**: Colored trails and smooth animations
 - **Responsive**: Adaptable to different screen sizes
 
 ## 🚀 Demo
@@ -72,8 +72,8 @@ This project explores the intersection between physical movement and musical cre
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/interactive-musical-pendulums.git
-cd interactive-musical-pendulums
+git clone https://github.com/ieysimurra/It-Looks-Like-Pendulum-Music.git
+cd it-looks-like-pendulum-music
 ```
 
 2. Open `index.html` in browser or start a local server:
