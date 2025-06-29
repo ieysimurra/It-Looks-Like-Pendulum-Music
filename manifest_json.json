@@ -1,0 +1,279 @@
+{
+  "name": "Interactive Musical Pendulums",
+  "short_name": "Musical Pendulums",
+  "description": "Interactive double pendulums with real-time sound synthesis inspired by Steve Reich's Pendulum Music",
+  "version": "1.0.0",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#007acc",
+  "background_color": "#1a1a1a",
+  "lang": "en",
+  "dir": "ltr",
+  
+  "icons": [
+    {
+      "src": "assets/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/maskable-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  
+  "categories": [
+    "music",
+    "education",
+    "entertainment",
+    "productivity",
+    "utilities"
+  ],
+  
+  "screenshots": [
+    {
+      "src": "assets/screenshots/desktop-main.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Main interface with pendulums and controls"
+    },
+    {
+      "src": "assets/screenshots/mobile-main.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Mobile interface"
+    },
+    {
+      "src": "assets/screenshots/recording.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Recording functionality"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "Add Pendulum",
+      "short_name": "Add",
+      "description": "Quickly add a new pendulum",
+      "url": "./?action=add",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-add.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Reset",
+      "short_name": "Reset",
+      "description": "Reset all pendulums",
+      "url": "./?action=reset",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-reset.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Instructions",
+      "short_name": "Help",
+      "description": "View instructions and help",
+      "url": "./?action=help",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-help.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Examples",
+      "short_name": "Examples",
+      "description": "View example compositions",
+      "url": "./examples/",
+      "icons": [
+        {
+          "src": "assets/icons/shortcut-examples.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "application/json": [".json"],
+        "text/csv": [".csv"]
+      }
+    }
+  ],
+  
+  "protocol_handlers": [
+    {
+      "protocol": "web+pendulum",
+      "url": "./?data=%s"
+    }
+  ],
+  
+  "share_target": {
+    "action": "./share-target/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "pendulum_data",
+          "accept": [
+            "application/json",
+            "text/csv",
+            "audio/webm",
+            "video/webm"
+          ]
+        }
+      ]
+    }
+  },
+  
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://your-domain.com/manifest.json"
+    }
+  ],
+  
+  "prefer_related_applications": false,
+  
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  
+  "handle_links": "preferred",
+  
+  "capture_links": "existing-client-navigate",
+  
+  "id": "interactive-musical-pendulums",
+  
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  
+  "permissions": [
+    "audioCapture",
+    "videoCapture"
+  ],
+  
+  "features": [
+    "Cross Origin Isolation"
+  ],
+  
+  "offline_enabled": true,
+  
+  "custom": {
+    "physics_engine": "custom_double_pendulum",
+    "audio_engine": "tone_js_fm_synthesis",
+    "max_pendulums": 5,
+    "supported_audio_formats": [
+      "webm",
+      "mp4",
+      "wav"
+    ],
+    "supported_video_formats": [
+      "webm",
+      "mp4"
+    ],
+    "min_browser_versions": {
+      "chrome": "88",
+      "firefox": "85",
+      "safari": "14",
+      "edge": "88"
+    },
+    "features": {
+      "real_time_synthesis": true,
+      "audio_recording": true,
+      "video_recording": true,
+      "offline_mode": true,
+      "touch_support": true,
+      "keyboard_shortcuts": true,
+      "responsive_design": true,
+      "multilingual": true
+    },
+    "performance": {
+      "target_fps": 60,
+      "max_pendulums": 5,
+      "audio_latency_ms": 20,
+      "memory_limit_mb": 100
+    },
+    "accessibility": {
+      "screen_reader_support": true,
+      "keyboard_navigation": true,
+      "high_contrast_mode": true,
+      "color_blind_friendly": true
+    }
+  }
+}
