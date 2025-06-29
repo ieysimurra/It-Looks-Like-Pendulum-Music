@@ -4,7 +4,7 @@
 [![p5.js](https://img.shields.io/badge/p5.js-ED225D?style=flat&logo=p5.js&logoColor=white)](https://p5js.org/)
 [![Tone.js](https://img.shields.io/badge/Tone.js-blue)](https://tonejs.github.io/)
 
-[🇺🇸 English](README.md) | 🇧🇷 Português
+[🇺🇸 English](readme_en.md) | 🇧🇷 Português
 
 Uma aplicação interativa que combina simulação física de pêndulos duplos com síntese sonora em tempo real, inspirada na obra "Pendulum Music" de Steve Reich.
 
