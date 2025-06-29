@@ -1,0 +1,215 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production builds
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Temporary folders
+tmp/
+temp/
+
+# Audio/Video recordings (large files)
+recordings/
+*.webm
+*.mp4
+*.wav
+*.mp3
+*.ogg
+
+# Generated documentation
+docs/api/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Test artifacts
+test-results/
+screenshots/
+videos/
+
+# Lighthouse reports
+lighthouse-report.html
+lighthouse-report.json
+
+# Webpack bundle analyzer
+webpack-stats.json
+
+# Local development
+.local/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# GitHub Pages
+_site/
+
+# Jekyll
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore sensitive configuration
+config/secrets.js
+keys.js
+credentials.json
+
+# Ignore large assets that should be hosted elsewhere
+assets/large/
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore user-generated content in examples
+examples/user-recordings/
+examples/temp/
+
+# Ignore development databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore generated API documentation
+api-docs/
+
+# Ignore performance monitoring files
+performance-*.json
+memory-*.json
+
+# Ignore browser-specific files
+.chrome/
+.firefox/
+.safari/
+
+# Ignore service worker cache
+sw-cache/
+workbox-*.js
+
+# Ignore PWA generated files
+manifest-*.json
+sw-*.js
+
+# Ignore analytics and tracking
+analytics.js
+tracking.js
+gtag.js
+
+# Ignore experimental features
+experimental/
+prototype/
+sandbox/
+
+# Ignore security scan results
+security-scan.json
+vulnerability-report.html
+
+# Ignore benchmark results
+benchmark-*.json
+performance-test-*.html

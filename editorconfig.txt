@@ -1,0 +1,82 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# All files
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 80
+
+# JavaScript files
+[*.{js,mjs,cjs}]
+indent_size = 2
+quote_type = single
+
+# HTML files
+[*.html]
+indent_size = 2
+max_line_length = 120
+
+# CSS files
+[*.{css,scss,sass,less}]
+indent_size = 2
+max_line_length = 120
+
+# JSON files
+[*.json]
+indent_size = 2
+max_line_length = 120
+
+# YAML files
+[*.{yml,yaml}]
+indent_size = 2
+max_line_length = 80
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = 80
+indent_size = 2
+
+# Python files (for scripts)
+[*.py]
+indent_size = 4
+max_line_length = 88
+
+# Shell scripts
+[*.{sh,bash}]
+indent_size = 2
+max_line_length = 80
+
+# Configuration files
+[{package.json,*.config.js,.*rc.js}]
+indent_size = 2
+
+# Test files
+[*.{test,spec}.js]
+indent_size = 2
+max_line_length = 100
+
+# Documentation files
+[docs/**/*.md]
+max_line_length = 120
+
+# Example files
+[examples/**/*]
+indent_size = 2
+max_line_length = 100
+
+# Ignore generated files
+[{dist,build,coverage}/**/*]
+charset = unset
+end_of_line = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+indent_style = unset
+indent_size = unset
