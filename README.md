@@ -203,4 +203,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-**[⭐ Se gostou do projeto, deixe uma estrela!](https://github.com/seu-usuario/interactive-musical-pendulums/stargazers)**
+**[⭐ Se gostou do projeto, deixe uma estrela!]([https://github.com/ieysimurra/interactive-musical-pendulums](https://github.com/ieysimurra/It-Looks-Like-On-December)/stargazers)**
